@@ -1,0 +1,21 @@
+1. Open the project and run npm install
+
+2. Then go to your database and run the following query to 
+
+  CREATE DATABASE <your-db-name> CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+
+3.Then go to the .env file and fill the following
+
+MYSQL_HOST=your-db-host
+MYSQL_USER=your-db-user
+MYSQL_PASSWORD=your-db-password
+MYSQL_DATABASE=your-db-name
+
+4. After that run the following command npm_run_migrate it will create all the tables
+
+5. Then you must run npm_run_dev to run the development server that will give you the base url with the port
+
+6. Set the base url in postman and Run the endpoints
+
+7. The postman collection file is attached with the email
+   
