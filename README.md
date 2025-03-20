@@ -23,7 +23,7 @@ Create a `.env` file with your MySQL credentials:
 MYSQL_HOST=your-db-host
 MYSQL_USER=your-db-user
 MYSQL_PASSWORD=your-db-password
-MYSQL_DATABASE=wallet_system
+MYSQL_DATABASE=your-db-name
 ```
 
 ### Run Database Migrations
@@ -31,7 +31,7 @@ MYSQL_DATABASE=wallet_system
 RUN THE FOLLOWING QUERY IN YOU MYSQL SERVER TO CREATE THE DATABASE
 
 ```
-CREATE DATABASE wallet_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE my_database CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 ```
 THEN RUN THE FOLLOWING COMMAND TO MIGRATE
@@ -65,9 +65,4 @@ The API handles various edge cases:
 - Non-existent accounts
 - Negative amounts
 - Decimal precision for currency calculations
-
-## COLLECTION
-
- -The collection file is present in the root of this project
- -You may import it and check the collection after runing ``` npm run dev ```
 
