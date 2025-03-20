@@ -66,3 +66,8 @@ The API handles various edge cases:
 - Negative amounts
 - Decimal precision for currency calculations
 
+## COLLECTION
+
+ -The collection file is present in the root of this project
+ -You may import it and check the collection after runing ``` npm run dev ```
+
