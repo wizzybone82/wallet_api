@@ -23,7 +23,7 @@ Create a `.env` file with your MySQL credentials:
 MYSQL_HOST=your-db-host
 MYSQL_USER=your-db-user
 MYSQL_PASSWORD=your-db-password
-MYSQL_DATABASE=your-db-name
+MYSQL_DATABASE=wallet_system
 ```
 
 ### Run Database Migrations
@@ -31,7 +31,7 @@ MYSQL_DATABASE=your-db-name
 RUN THE FOLLOWING QUERY IN YOU MYSQL SERVER TO CREATE THE DATABASE
 
 ```
-CREATE DATABASE my_database CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE wallet_system CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
 ```
 THEN RUN THE FOLLOWING COMMAND TO MIGRATE
