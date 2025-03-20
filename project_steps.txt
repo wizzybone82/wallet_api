@@ -17,5 +17,5 @@ MYSQL_DATABASE=your-db-name
 
 6. Set the base url in postman and Run the endpoints
 
-7. The postman collection file is attached with the email
+7. The postman collection file is attached with the project
    
